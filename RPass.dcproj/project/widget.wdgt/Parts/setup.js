@@ -5,7 +5,7 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
-    "credits": { "text": "RPass 1.0b2", "view": "DC.Text" },
+    "credits": { "text": "RPass 1.0", "view": "DC.Text" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
     "new": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "newPassword", "rightImageWidth": 5, "text": "New Password" },
